@@ -35,3 +35,17 @@ p, h3 {
 }
 
 /* Iteration 3: Styling the Section element by using flex properties */
+#wear, #eat{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 5vw;
+}
+#wash,#stay,#work{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    padding: 5vw;
+}
